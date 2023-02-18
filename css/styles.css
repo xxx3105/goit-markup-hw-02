@@ -1,0 +1,257 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--center-color);
+}
+
+:root {
+  --logo-l-color: #4d5ae5;
+  --logo-r-color: #2e2f42;
+  --contact-color: #434455;
+  --center-color: #ffffff;
+  --but-color: #4d5ae5;
+  --logo-f-color: #f4f4fd;
+  --button2-color: #404bbf;
+  --last-abz-color: #e7e9fc;
+}
+
+.logo-header {
+  text-decoration: none;
+}
+
+.logo-header-one {
+  color: var(--logo-l-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo-header-two {
+  color: var(--logo-r-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navigation {
+  color: var(--logo-r-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navigation:hover,
+.navigation:hover {
+  color: var(--but-color);
+}
+
+.contacts {
+  color: var(--contact-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  list-style: none;
+  text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:hover {
+  color: var(--but-color);
+}
+
+/* SECTION 1.1 */
+
+.hero {
+  color: var(--center-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.05;
+  background-color: var(--logo-r-color);
+  text-align: center;
+}
+
+.herobutton {
+  color: var(--center-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--but-color);
+  border: 1px;
+}
+
+.herobutton:hover,
+.herobutton:focus {
+  color: var(--center-color);
+  background-color: var(--button2-color);
+  cursor: pointer;
+}
+
+/* SECTION 1.2 */
+
+/* .list-of-projects
+{
+I need to kill this logo.
+ } */
+
+.buttons {
+  list-style: none;
+}
+
+button {
+  background-color: var(--logo-f-color);
+  color: var(--but-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px;
+}
+
+button:hover,
+button:focus {
+  color: var(--center-color);
+  background-color: var(--button2-color);
+  cursor: pointer;
+}
+
+/* SECTION 2.1. */
+.list-of-fetaures-points {
+  color: var(--logo-r-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.table-list-of-feautures {
+  list-style: none;
+}
+
+.key-points {
+  color: var(--contact-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* SECTION 2.2. */
+
+.list-of-projects {
+  list-style: none;
+}
+
+.list-of-projects-points {
+  color: var(--logo-r-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.sectionp {
+  color: var(--contact-color);
+  font-family: 'Roboto' sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* SECTION3 */
+
+.what-we-do {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--logo-r-color);
+  text-align: center;
+}
+
+.what-we-do-list {
+  list-style: none;
+}
+
+/* SECTION4 */
+
+.team-table {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--logo-r-color);
+  text-align: center;
+}
+
+.list-team-table {
+  list-style: none;
+}
+
+.team-player-name {
+  color: var(--logo-r-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-player-title {
+  color: var(--contact-color);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* LOGO2 */
+
+.logo-three {
+  color: var(--logo-l-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo-four {
+  color: var(--logo-f-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.last-abz {
+  color: var(--last-abz-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* 
+#4D5AE5 logo
+#2E2F42  logo nav list  wawd names
+#434455 cont  text job post
+#FFFFFF center
+#4D5AE5 button
+#F4F4FD logo finish
+#E7E9FC;unter logo  
+#404BBF ; button 2 
+*/
