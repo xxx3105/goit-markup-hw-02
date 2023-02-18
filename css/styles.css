@@ -1,6 +1,5 @@
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--center-color);
 }
 
@@ -15,11 +14,11 @@ body {
   --last-abz-color: #e7e9fc;
 }
 
-.logo0 {
+.logo-header {
   text-decoration: none;
 }
 
-.logo1 {
+.logo-header-one {
   color: var(--logo-l-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -29,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-.logo2 {
+.logo-header-two {
   color: var(--logo-r-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -57,6 +56,7 @@ body {
 .contacts {
   color: var(--contact-color);
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   list-style: none;
@@ -73,7 +73,6 @@ body {
 .hero {
   color: var(--center-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.05;
@@ -84,7 +83,6 @@ body {
 .herobutton {
   color: var(--center-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -113,8 +111,7 @@ I need to kill this logo.
 button {
   background-color: var(--logo-f-color);
   color: var(--but-color);
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -129,23 +126,21 @@ button:focus {
 }
 
 /* SECTION 2.1. */
-.h3class {
+.list-of-fetaures-points {
   color: var(--logo-r-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.ul-section2 {
+.table-list-of-feautures {
   list-style: none;
 }
 
-.psect2 {
+.key-points {
   color: var(--contact-color);
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -153,14 +148,13 @@ button:focus {
 
 /* SECTION 2.2. */
 
-.section2 {
+.list-of-projects {
   list-style: none;
 }
 
-.section2h2 {
+.list-of-projects-points {
   color: var(--logo-r-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -175,9 +169,8 @@ button:focus {
 
 /* SECTION3 */
 
-.what-seckt3 {
+.what-we-do {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -185,15 +178,14 @@ button:focus {
   text-align: center;
 }
 
-.ulsect3 {
+.what-we-do-list {
   list-style: none;
 }
 
 /* SECTION4 */
 
-.ourtsec4 {
+.team-table {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -201,23 +193,21 @@ button:focus {
   text-align: center;
 }
 
-.ulsect4 {
+.list-team-table {
   list-style: none;
 }
 
-.h3sec4 {
+.team-player-name {
   color: var(--logo-r-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.psec4 {
+.team-player-title {
   color: var(--contact-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -225,7 +215,7 @@ button:focus {
 
 /* LOGO2 */
 
-.logo3 {
+.logo-three {
   color: var(--logo-l-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -235,10 +225,9 @@ button:focus {
   text-decoration: none;
 }
 
-.logo4 {
+.logo-four {
   color: var(--logo-f-color);
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -249,7 +238,6 @@ button:focus {
 .last-abz {
   color: var(--last-abz-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
